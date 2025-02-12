@@ -23,7 +23,7 @@ public class AIOpenUtils {
          */
         localIntent.setPackage("com.peasun.aispeech");
         //context.sendBroadcast(localIntent, AIOpenConstant.AI_OPEN_ACTION_PERMISSION);
-        context.sendBroadcast(localIntent);
+        context.startService(localIntent);
     }
 
     public static AIOpenReceiver registerKaraokeReceiver(Context context) {
