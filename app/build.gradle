@@ -1,10 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdk 35
+
+    namespace 'com.sharjeck.karaokedemo'
 
     defaultConfig {
-        applicationId "com.sharjie.karaokedemo"
+        applicationId "com.sharjeck.karaokedemo"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 100
